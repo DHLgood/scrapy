@@ -1,0 +1,17 @@
+start_urls: ['http://www.cignacmb.com/insurance/']
+allowed_domains: ['cignacmb.com']
+further_allowed_domains: [
+                            'http://www.cignacmb.com/shop/',
+                            'http://www.cignacmb.com/insurance/',
+                        ]
+production_description_div: {
+  'production_description': '//div[@class="form-title"]/h1|//div[@class="form-title"]/p|//div[@class="floor features"]//ul/li/strong|//div[@class="floor features"]//ul/li/p|//div[@class="floor case"]/h2|//div[@class="floor case"]/div//dt|//div[@class="floor case"]/div//p|//div[@class="floor case"]/div//div[@class="case-inner"]|//div[@class="floor case"]/div//tbody/tr/td|//div[@class="floor instructions"]//h2|//div[@class="floor instructions"]//td|//div[@class="floor instructions"]//th|//div[@class="process1"]/h2|//div[@class="process1"]//ul/li|//div[@class="floor process2"]/h2|//div[@class="floor process2"]//ul/li|//div[@class="floor problem"]/h2|//div[@class="floor problem"]//dt|//div[@class="floor problem"]//dd|//div[@class="floor-box"]//dt|//div[@class="floor-box"]//td|//div[@class="floor-box"]//li|//div[@class="floor-box"]//h2|//div[@class="floor-box"]//h3|//div[@class="floor-box"]//h4|//div[@class="floor-box"]//dd|//div[@class="floor-box"]//p|//div[@class="p-mbx"]/span[2]/h1|//div[@class="main"]//h2|//div[@class="main"]//h4|//div[@class="main"]//dt|//div[@class="main"]//dd|//div[@class="main"]//td|//div[@class="main"]//li|//div[@class="main"]//p|//div[@class="product-detail-content"]//h2|//div[@class="product-detail-content"]//h3|//div[@class="product-detail-content"]//p|//div[@class="product-detail-content"]//dl|//div[@class="product-detail-content"]//td'
+
+}
+data_deal: True
+
+
+
+
+
+

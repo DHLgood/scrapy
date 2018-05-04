@@ -1,0 +1,17 @@
+start_urls: [
+                  'http://www.dajiabao.com/',
+                  'http://www.dajiabao.com/zixun'
+            ]
+allowed_domains: ['dajiabao.com']
+further_allowed_domains: [
+                            'https://mall.dajiabao.com/mall/product/',
+                            'http://www.dajiabao.com/zixun/'
+                        ]
+complex_web_target: {
+
+'news': '//div[@class="cmsNewLt"]//h1|//div[@class="con"]//p',
+'production_description': '//div[@class="f-r infos"]/h2|//div[@class="company"]|//menu[@class="center-block content-width products-menu"]//ul/li|//*[@id="p-cont"]/div//p',
+
+}
+
+data_deal: True

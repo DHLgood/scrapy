@@ -1,0 +1,7 @@
+allowed_domains: ['cignacmb.com']
+further_allowed_domains: ['http://www.cignacmb.com/faq/']
+start_urls: ['http://www.cignacmb.com/faq/']
+target_faq_div_xpath:  {
+  'questions_answers': '//div[@class="wjcon-1" or @class="wjcon-2 mb20"]//text()'
+}
+data_deal: False

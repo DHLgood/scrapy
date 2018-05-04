@@ -1,0 +1,16 @@
+allowed_domains: ['fund.10jqka.com.cn']
+further_allowed_domains: ['http://fund.10jqka.com.cn/datacenter/jz/']
+start_urls: [
+               'http://fund.10jqka.com.cn/datacenter/jz/',
+
+                  ]
+
+complex_web_target_div_xpath: False
+aims: False
+scroll: True
+each_click: False
+mult_click_path: False
+change_url: False
+get_data_in_middleware: {
+               'code-data': '//*[@id="containerMain"]/tr/td[3]|//*[@id="containerMain"]/tr/td[4]|//table[@class="m_table pd_detail_yh fixed_thead_table"]/thead/tr[1]/th[3]|//table[@class="m_table pd_detail_yh fixed_thead_table"]/thead/tr[1]/th[4]',
+                        }
